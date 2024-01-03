@@ -1,0 +1,66 @@
+
+.container{
+    background-color: rgb(253, 150, 150);
+    background-size: cover;
+    height: auto;
+    width: 100wh;
+    border: 5px solid black;
+}
+
+header{
+    display: flex; 
+    justify-content: space-between;
+}
+
+header div{
+    background-color: #5af5c6;
+    height: 60px;
+    width: 60px;
+    margin: 15px;
+    padding: 15px; 
+    border: 1px solid black;
+    text-align: center;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    font-style: italic;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+
+footer div{
+    background-color: rgb(160, 147, 236);
+    height: 60px;
+    width: 60px;
+    margin: 15px;
+    padding: 15px; 
+    border: 1px solid black;
+    text-align: center;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    font-style: italic;
+}
+
+section{
+    display: flex; 
+    justify-content: center;
+    padding-top: 110px;
+}
+
+section div{
+    background-color: rgb(135, 227, 245); 
+    height: 60px; 
+    width: 60px; 
+    margin: 15px; 
+    padding: 15px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    border: 1px solid black;
+    font-style: italic;
+}
